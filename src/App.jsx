@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter as BrowserRouter, Routes, Route } from 'react-router-dom'
 import { ThemeProvider, CssBaseline } from '@mui/material'
 import { GoogleOAuthProvider } from '@react-oauth/google'
 import theme from './theme'
